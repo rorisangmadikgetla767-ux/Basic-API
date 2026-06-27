@@ -27,4 +27,7 @@ def create_tables():
     cursor.close()
     conn.close()
     print("Tables created ka katleho")
+
+if __name__ == "__main__":
+    create_tables()
     
