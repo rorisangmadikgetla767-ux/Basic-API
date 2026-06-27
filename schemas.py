@@ -21,5 +21,5 @@ class UserResponse(BaseModel):
 class TokenResponse(BaseModel):
     access_token: str
     token_type: str
-
-    
+# Request schemas = what the client sends to you
+#Response schemas = what you send back to the client
